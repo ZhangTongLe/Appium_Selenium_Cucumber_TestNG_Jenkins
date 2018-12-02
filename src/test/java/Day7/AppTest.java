@@ -7,7 +7,7 @@
     @CucumberOptions(
             features = {"classpath:features/search.feature"},
             glue = "Day7.steps",
-            plugin = {"pretty", "html:target/cucumber-html-report;","json:target/cucumber.json" }
+            plugin = {"pretty", "html:target/cucumber-html-report;","json:report/cucumber.json" }
     )
 
 
